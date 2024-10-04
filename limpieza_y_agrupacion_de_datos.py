@@ -5,7 +5,7 @@ import missingno as msno
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-s_salud= pd.read_csv("C:/Users/zaira/Desktop/alan/analisis_de_datos/conjunto_de_datos/denue_inegi.csv")
+s_salud= pd.read_csv("denue_inegi.csv")
 #s_salud.info() #para conocer el tipo de datos
 ds_salud = s_salud.copy()
 #ds_salud= ds_salud.set_index("id")
